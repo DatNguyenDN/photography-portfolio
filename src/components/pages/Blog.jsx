@@ -1,5 +1,5 @@
 import React from "react";
-
+import {Link} from 'react-router-dom'
 const Blog = () => {
     return (
         <section className="section">
@@ -44,7 +44,7 @@ const Blog = () => {
                         </div>
                     </div>
                     <div className="block pt-10">
-                        <button className="bg-black btn btn-md w-[30%]">Explore More</button>
+                        <Link to='/portfolio'><button className="bg-black btn btn-md w-[30%]">Explore More</button></Link>
                     </div>
                 </div>
             </div>

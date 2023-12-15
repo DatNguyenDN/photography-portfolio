@@ -23,7 +23,7 @@ const Home = () => {
                         </h1>
 
                         <p className="font-primary text-[24px] pb-[30px] lg:text-[36px] lg:mb-5">Los Angeles, USA</p>
-                        <Link>
+                        <Link to='/contact'>
                             <button className="bg-black w-[100px] h-[50px] text-white font-secondary ">HIRE ME</button>
                         </Link>
                     </motion.div>
