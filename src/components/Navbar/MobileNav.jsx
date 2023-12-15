@@ -35,7 +35,9 @@ const MobileNav = () => {
                 <div onClick={() => setOpenMenu(false)} className="text-4xl absolute z-30 lef-4 top-14 cursor-pointer">
                     <box-icon name="x"></box-icon>
                 </div>
-                <ul className="h-full flex flex-col text-display justify-center items-center gap-y-10 font-display text-2xl">
+                <ul className="h-full flex flex-col text-display justify-center items-center gap-y-10 font-display text-2xl"
+                onClick={()=> setOpenMenu(false)}
+                >
                     <NavLinks />
                 </ul>
             </motion.div>
